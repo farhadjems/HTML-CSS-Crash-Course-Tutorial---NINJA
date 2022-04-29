@@ -1,0 +1,11 @@
+span {
+    display: block;
+    margin: 20px;
+    padding: 30px;
+}
+
+div {
+    display: inline-block;
+    margin: 20px;
+    padding: 30px;
+}

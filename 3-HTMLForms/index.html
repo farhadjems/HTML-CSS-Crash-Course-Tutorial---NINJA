@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Forms</title>
+</head>
+
+<body>
+    <h1>HTML Forms</h1>
+
+    <form>
+        <label for="username">enter username: </label>
+        <input type="text" id="username" name="username" placeholder="usename" required>
+        <br><br>
+        <label for="password">enter password: </label>
+        <input type="password" name="password" id="password" placeholder="password" required>
+        <br><br>
+        <label for="email">enter email:</label>
+        <input type="email" name="email" id="email" placeholder="for@emaple.com" required>
+        <br><br> 
+
+        <p>select your age</p>
+        <input type="radio" name="age" id="option1" value="0-25">
+        <label for="option1">0-25</label>
+        <input type="radio" name="age" id="option2" value="26-50">
+        <label for="option2">26-50</label>
+        <input type="radio" name="age" id="option3" value="+51">
+        <label for="option3">+51</label>
+        <br><br>
+
+        <label for="questionBox">Security Questions: </label>
+        <select name="questionBox" id="questionBox">
+            <option value="q1">What is your favourite color?</option>
+            <option value="q2">What is you elementary school name?</option>
+            <option value="q3">What is your pet's name?</option>
+        </select>
+        <br><br>
+        <label for="answer">Enter Security Question Answer: </label>
+        <input type="text" id="answer" name="answer">
+        <br><br>
+        
+        <label for="bioBox">Enter Your Biography:</label> 
+        <br><br>
+        <textarea name="bioBodx" id="bioBox" cols="30" rows="10" placeholder="Enter your bio..."></textarea>
+        <br><br>
+
+        <input type="submit" id="sumit" name="submit" value="submit the form">
+
+    </form>
+
+</body>
+
+</html>

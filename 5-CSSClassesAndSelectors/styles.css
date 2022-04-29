@@ -1,0 +1,50 @@
+/* p.error {
+    color: red;
+}
+
+p.success {
+    color: green;
+}
+
+p.success.feedback {
+    border: 1px dashed darkgreen;
+}
+
+div#content { 
+    background-color: lightgrey;
+    padding: 20px;;
+} */
+
+/* div .error {
+    color: blue;
+}
+
+a[href*="thenetninja"] {
+    background-color: red;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: yellow;
+}
+
+a[href$=".com"] {
+    color: green;
+    background-color: yellow;
+    border: 2px solid red;
+} */ 
+
+div {
+    color: lightcoral;
+    border: 1px solid grey;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p{
+    color: orange;
+}
